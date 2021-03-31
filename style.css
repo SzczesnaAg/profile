@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+h1, h2, h3 {
+  font-family: 'Kiwi Maru', serif;
+  color: #e63946;
+}
+
+img {
+  border-radius: 5px;
+  box-shadow: 3px 3px 1px black;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: #457b9d;
+  text-align: justify;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  color: #1d3557;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: #a8dadc;
+}
+
+.link {
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px lightgrey;
+}
+
+#header, #title {
+  text-align: center;
+}
+
+.main_box_white {
+  background: white;                         /* White background */
+  padding: 7px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 600px;        /* Set the width */
+  margin: 10px auto;      /* Set automatic margins on right/left */
+}
+
+
